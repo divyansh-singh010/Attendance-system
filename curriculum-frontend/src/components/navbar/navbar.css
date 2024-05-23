@@ -1,0 +1,93 @@
+.navbar {
+  background-color: #881010;
+  padding: 0.4% 2%;
+  display: flex;
+  position: relative;
+}
+.logout-icon,.logout-text{
+  padding: 3%;
+  display: flex;
+}
+.logout-border {
+  width: fit-content;
+  padding: 3% 50%;
+  border: #fff 2px solid;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  border-radius: 1rem;
+}
+.navbar-heading {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-logo img {
+  width: auto;
+  height: 100%;
+}
+
+.nav-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1%;
+  color: #fff;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logout {
+  position: absolute;
+  color: #fff;
+  float: right;
+  /* font-size: 1.75rem; */
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  justify-content: flex-end;
+  position: absolute;
+  /* border: #000 1px solid;
+    padding: 1% 5%;
+    right: 2%;
+    top: 20%; */
+  right: 2%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.logout img {
+  cursor: pointer;
+  width: auto;
+  float: right;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}

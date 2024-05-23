@@ -1,0 +1,47 @@
+.qr-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    width: 100%;
+    align-items: center;
+}
+
+.qr-heading{
+    color: #881010;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.25rem;
+    width: max-content;
+}
+
+.student-register-qr{
+    padding: 1rem;
+    --s: 50px; /* the size on the corner */
+    --t: 5px;  /* the thickness of the border */
+    --g: 20px; /* the gap between the border and image */
+    
+    padding: calc(var(--g) + var(--t));
+    outline: var(--t) solid #881010; /* the color here */
+    outline-offset: calc(-1*var(--t));
+    -webkit-mask:
+      conic-gradient(at var(--s) var(--s),#0000 75%,#000 0)
+      0 0/calc(100% - var(--s)) calc(100% - var(--s)),
+      linear-gradient(#000 0 0) content-box;
+    transition: .4s;
+}
+
+.student-register-qr:hover{
+    outline-color: #881010;
+    outline-offset: calc(var(--g)/-1);
+    cursor: pointer;
+}
+
+.qr-status{
+    color: #881010;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.75rem;
+    width: max-content;
+}

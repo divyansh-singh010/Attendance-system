@@ -1,0 +1,10 @@
+myenv
+files
+__pycache__
+*.pyc
+.venv
+db.sqlite3
+celery.py
+static
+*.pem
+.env

@@ -1,0 +1,146 @@
+.student-page-container {
+    display: flex;
+    margin: 1% 0;
+  }
+  
+  .student-page-container2 {
+    display: flex;
+    margin: auto 10%;
+  }
+  
+  .rule {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    align-items: center;
+    width: 7%;
+    height: 0.3125rem;
+    background: #881010;
+  }
+  
+  .student-page-heading {
+    margin-left: 3%;
+    color: #881010;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 50%;
+  }
+
+  .student-page-register{
+    position: relative;
+    margin: auto 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 26%;
+    color: #881010;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .student-page-container2-entry {
+    display: flex;
+    width: 50%;
+  }
+  
+  .student-page-container2-entry-heading {
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: max-content;
+  }
+  
+  .student-page-container2-entry-heading2 {
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    display: flex;
+  }
+  
+  .student-page-container3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 3% 10%;
+  }
+  
+  .student-page-coursecard {
+    width: auto;
+    position: relative;
+    height: auto;
+    border-radius: 0.5rem;
+    background: rgba(255, 199, 199, 0.50);
+    flex-shrink: 0;
+  }
+  
+  .student-page-coursecard-heading {
+    margin: 5% 5% 1% 5%;
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .student-page-coursecard-subheading {
+    margin: 0 5% 5% 5%;
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .student-page-coursecard-credit {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    color: #000;
+    text-align: right;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .student-page-coursecard-slot {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.25rem;
+    font-size: 1.25rem;
+    position: absolute;
+    right: 5%;
+  }
+  
+  .student-page-coursecard-attendance {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0.5rem 1rem;
+  }
+  
+  .student-page-coursecard-attendance-container {
+    display: inline-flex;
+    margin: 0 5%;
+    margin-bottom: 5%;
+    border-radius: 1rem;
+    background: #881010;
+  }
+
+.student-page-coursecard-container{
+  margin: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}

@@ -1,0 +1,50 @@
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-right: 10px;
+}
+
+.qrCode {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.qr-code {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+.attendance-button-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  width: auto;
+  margin-top: 20px;
+}
+.attendance-button-container button {
+  margin: 0 5rem;
+  font-size: 1.2rem;
+  background-color: #881010;
+  color: white;
+  font-family: "Titillium-Web";
+  width: max-content;
+  border: #881010;
+  border-radius: 0.75rem;
+}
+.attendance-button {
+  position: absolute;
+  right: 0;
+}
+.buttons {
+  padding: 0.5rem;
+  line-height: 120%;
+}
